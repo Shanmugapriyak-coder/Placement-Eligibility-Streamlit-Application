@@ -15,9 +15,9 @@ st.html(
 #SQL Connection
 mydb = mysql.connector.connect(
         host = "localhost",
-        user = "root",
-        password = "root",
-        database='guvi_projects',
+        user = st.secrets["Username"],
+        password = st.secrets["Password"],
+        database=st.secrets["Database"],
         autocommit = True)
 mycursor = mydb.cursor()
 
