@@ -11,6 +11,9 @@ This class used to insert the data using faker python library in the table .
 # requirements.txt
 This file contains the required library to install.
 
+# insights_query.sql
+this file consists of insight queries used in insight form .
+
 # placementeligibilityform.py
 This file contains the main code for streamlit application . the first page of application show a sidebar with selectbox ** choose the service ** dropdown contains two option "placement eligibility form" and "insight form "
 #### Placement Eligibility Form 
